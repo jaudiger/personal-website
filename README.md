@@ -1,0 +1,23 @@
+# Personal Website
+
+## Instructions
+
+This is my personal website built using the [Zine](https://zine-ssg.io) static site generator.
+
+To run it locally in your Web browser, you can install Zine, run the command, and go to [http://localhost:1990/personal-website](http://localhost:1990/personal-website):
+
+```bash
+zine
+```
+
+## CI / CD
+
+The CI/CD pipeline is configured using GitHub Actions. The workflow is defined in the `.github/workflows` folder:
+
+- Deployment
+
+Additionally, Dependabot is configured to automatically update dependencies (GitHub Actions, Terraform providers).
+
+## Repository configuration
+
+The settings of this repository are managed using Terraform. The configuration is located in the `.github/terraform` folder.

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head id="head">
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1">
+    <title :text="$site.title"></title>
+    <link type="text/css" rel="stylesheet" href="$site.asset('style.css').link()">
+    <link type="text/css" rel="stylesheet" href="$site.asset('highlight.css').link()">
+    <link rel="icon" href="$site.asset('favicon.ico').link()" sizes="any">
+    <super>
+  </head>
+  <body id="body">
+    <h1 class="site-title" :text="$site.title"></h1>
+    <h3 class="site-subtitle">Welcome into my brain !</h3>
+    <nav>
+      <a href="$site.page('').link()">Lore</a>
+       &nbsp; • &nbsp;
+      <a href="$site.page('projects').link()">Projects</a>
+       &nbsp; • &nbsp;
+      <a href="$site.page('setup').link()">Setup</a>
+       &nbsp; • &nbsp;
+      <a href="$site.page('curriculum').link()">Curriculum</a>
+       &nbsp; • &nbsp;
+      <a href="$site.page('contact').link()">Contact</a>
+    </nav>
+    <super>
+    <footer>
+      <hr>
+      <h5 class="copyright">Copyright © 2025 Jérémy Audiger</h5>
+      <p class="note">Powered with
+        <a href="https://zine-ssg.io">Zine</a>,
+        <a href="$site.page('contact').link()">source code</a>
+        of this website</p>
+    </footer>
+  </body>
+</html>

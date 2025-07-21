@@ -1,0 +1,14 @@
+---
+.title = "Contact",
+.date = @date("1994-05-06T00:00:00"),
+.author = "Jérémy Audiger",
+.layout = "index.shtml",
+---
+
+You can reach me from multiple mediums:
+
+- Email: jeremy.audiger@outlook.fr
+- LinkedIn: [in/jeremy-a-956529110]($link.url('https://www.linkedin.com/in/jeremy-a-956529110/').new(true))
+- Mastodon: [@jaudiger@fosstodon.org]($link.url('https://fosstodon.org/@jaudiger').new(true))
+- GitHub: [@jaudiger]($link.url('https://github.com/jaudiger').new(true))
+- GitLab: [@jaudiger]($link.url('https://gitlab.com/jaudiger').new(true))
