@@ -10,6 +10,10 @@ To run it locally in your Web browser, you can install Zine, run the command, an
 zine
 ```
 
+### Alternative
+
+To go to the website, open your Web browser and navigate to [https://jaudiger.github.io/personal-website/](https://jaudiger.github.io/personal-website/).
+
 ## CI / CD
 
 The CI/CD pipeline is configured using GitHub Actions. The workflow is defined in the `.github/workflows` folder:
