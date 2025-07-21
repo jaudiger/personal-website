@@ -63,11 +63,11 @@ I contributed to the project by implementing most of the HTTP commands that can 
 I can't enumerate all the open source projects I have worked on, but here are a few additional ones:
 
 - [Bitnami Charts]($link.url('https://github.com/bitnami/charts').new(true)): I upstreamed a few additional modifications in the charts, since my company wanted to fine-tune a few services deployment.
-- [Porter]($link.url('https://porter.sh').new(true)): I worked on it when we wanted in my company to propose a Airgap deployment for our PaaS cloud platform.
+- [Porter]($link.url('https://porter.sh').new(true)): I worked on it when we wanted in my company to propose a airgap deployment for our PaaS cloud platform.
 
 ## Personal Projects
 
-Below, some of my personal projects I developed, and put them in Open Source.
+Below, some of my personal projects I developed. And if you want to have a look to my public repositories, you can find them [here]($link.url('https://github.com/jaudiger?tab=repositories').new(true)).
 
 ### [Bevy Calculator (Wasm)]($link.url('https://github.com/jaudiger/bevy-calculator/').new(true))
 
