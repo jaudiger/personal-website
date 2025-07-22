@@ -5,7 +5,7 @@ on:
     branches: [main]
 
 concurrency:
-  group: "deployment"
+  group: deployment
   cancel-in-progress: false
 
 permissions:
