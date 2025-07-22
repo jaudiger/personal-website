@@ -18,6 +18,7 @@ To go to the website, open your Web browser and navigate to [https://jaudiger.gi
 
 The CI/CD pipeline is configured using GitHub Actions. The workflow is defined in the `.github/workflows` folder:
 
+- Static Analysis (GitHub Actions)
 - Deployment
 
 Additionally, Dependabot is configured to automatically update dependencies (GitHub Actions, Terraform providers).
