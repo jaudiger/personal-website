@@ -73,10 +73,10 @@ Below, some of my personal projects I developed. And if you want to have a look 
 
 I always wanted to try [Bevy]($link.url('https://bevy.org').new(true)), a Rust game engine, don't ask me why, but sometimes I get these whims. In addition to that, I read that Bevy was compatible with WebAssembly (aka Wasm). Then why not creating something with Bevy + Wasm. And here come the idea of the calculator, since it was perfect to try the Bevy UI system !
 
-If you want to try the calculator, you can find it [here]($link.url('https://jaudiger.github.io/bevy-calculator/').new(true)). The calculator is deployed as a static website on GitHub Pages.
+If you want to try the calculator, you can find it [here]($link.url('https://bevy-calculator.jaudiger.dev/').new(true)). The calculator is deployed as a static website on Cloudflare Pages.
 
 ### No-allocation required communication protocol library
 
-During my spare time, I worked on a communication protocol Rust library that doesn't require any memory allocation (aka no_std mode in Rust). This library is designed to be used in resource-constrained environments, such as embedded systems or IoT devices. The CPU target was AVR. The code was simulated on QEMU, and a bridge was develop to map the serial port to a local TCP port to do the testing.
+During my spare time, I worked on a communication protocol Rust library that doesn't require any memory allocation (aka no_std mode in Rust). This library is designed to be used in resource-constrained environments, such as embedded systems or IoT devices. The CPU target was AVR. The code was simulated on QEMU, and a bridge was developed to map the serial port to a local TCP port to do the testing.
 
 This library is not open source, since it was part of an experiment at my job. I wanted to demonstrate to the top management, the usability of Rust in a no-alloc environment. And it was for me, a good fun project to work on.
