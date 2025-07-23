@@ -5,10 +5,5 @@
 # Specific folder of Zed
 .zed/
 
-# Terraform
-.terraform/
-terraform.tfstate
-terraform.tfstate.backup
-
 # Misc
 public/
