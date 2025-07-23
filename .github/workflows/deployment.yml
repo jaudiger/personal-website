@@ -8,21 +8,12 @@ concurrency:
   group: deployment
   cancel-in-progress: false
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
 env:
   ZINE_OUTPUT_DIR: public
 
 jobs:
   deployment:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -35,11 +26,9 @@ jobs:
       - name: Build
         run: zine release
 
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
         with:
-          path: ${{ env.ZINE_OUTPUT_DIR }}
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy ${{ env.ZINE_OUTPUT_DIR }} --project-name=${{ github.event.repository.name }} --branch=${{ github.ref_name }}

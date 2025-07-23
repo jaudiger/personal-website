@@ -12,7 +12,7 @@ zine
 
 ### Alternative
 
-To go to the website, open your Web browser and navigate to [https://jaudiger.github.io/personal-website/](https://jaudiger.github.io/personal-website/).
+The website is served through Cloudflare Pages. To go to the website, open your Web browser and navigate to [https://jaudiger.dev/](https://jaudiger.dev/).
 
 ## CI / CD
 
