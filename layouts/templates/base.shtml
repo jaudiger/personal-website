@@ -29,7 +29,7 @@
       <h5 class="copyright">Copyright © 2025 Jérémy Audiger</h5>
       <p class="note">Powered with
         <a href="https://zine-ssg.io">Zine</a>,
-        <a href="$site.page('contact').link()">source code</a>
+        <a href="https://github.com/jaudiger/personal-website">source code</a>
         of this website</p>
     </footer>
   </body>
