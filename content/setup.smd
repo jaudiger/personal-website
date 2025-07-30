@@ -21,3 +21,9 @@ Daily using a MacBook Pro M1 (2020) with 16GB RAM. Never heard a single time the
 - Graphical text editor: [Zed]($link.url('https://zed.dev').new(true))
 
 As you can already see, I'm a big fan of the languages [Rust]($link.url('https://www.rust-lang.org').new(true)) and [Zig]($link.url('https://ziglang.org').new(true)).
+
+## Project Setup
+
+I was in my earlier time an aficionado of containerizing all my projects to ensure the development environments were easy to replicate, and there was no risk of conflicting tool versions. But after a few months, I realized that it was not always the best solution. Sometimes, it was easier to just use the tools already installed on my machine. So, I decided to pre-install everything for my projects with Nix. The current full setup can be find [here]($link.url('https://github.com/jaudiger/dotfiles/tree/main/profiles/development').new(true)).
+
+Occasionally, I still need a specific toolchain or a specific version of one tool that is not available in my Nix profile. In such cases, I use a pre-configured [dev-shell]($link.url('https://github.com/jaudiger/dotfiles/tree/main/dev-shell').new(true)). And sometimes for certain use-cases, I can also use one of the [dev-containers]($link.url('https://github.com/jaudiger/vscode-dev-containers').new(true)) for VSCode I created specifically.
