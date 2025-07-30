@@ -5,7 +5,7 @@
 .layout = "index.shtml",
 ---
 
-You can check my [dotfiles]($link.url('https://github.com/jaudiger/dotfiles').new(true)) if you want to replicate some part of my setup.
+You can check my [dotfiles]($link.url('https://github.com/jaudiger/dotfiles').new(true)) if you want to replicate some part of my setup. Additionally, you can take inspiration from my [scripts]($link.url('https://github.com/jaudiger/personal-scripts').new(true)) I use to automate my daily tasks. Most of them are written in Nushell !
 
 ## Computer Setup
 
