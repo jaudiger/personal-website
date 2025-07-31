@@ -1,5 +1,5 @@
 Site {
-    .title = "Personal Website",
+    .title = "Simple Personal Website",
     .host_url = "https://jaudiger.dev/",
     .content_dir_path = "content",
     .layouts_dir_path = "layouts",
