@@ -69,7 +69,7 @@ I can't enumerate all the open source projects I have worked on, but here are a 
 
 Below, some of my personal projects I developed. And if you want to have a look to my public repositories, you can find them [here]($link.url('https://github.com/jaudiger?tab=repositories').new(true)).
 
-### [Brainfuck interpreter]($link.url('https://github.com/jaudiger/brainfuck-rs/').new(true)) + [GUI (Wasm)]($link.url('https://github.com/jaudiger/brainfuck-gui-rs/').new(true))
+### [Brainfuck interpreter]($link.url('https://github.com/jaudiger/brainfuck-rs/').new(true)) + [GUI (WebAssembly)]($link.url('https://github.com/jaudiger/brainfuck-gui-rs/').new(true))
 
 [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck) language is a basic programming language that is mostly used for educational purposes. Implementing an interpreter for this language is a good exercise to do a small step in the vastly world of lexers and parsers.
 
@@ -77,7 +77,7 @@ I wrote the core interpreter in Rust with a few adjustments to make the integrat
 
 If you want to try the interpreter using the GUI, you can find it [here]($link.url('https://brainfuck-gui-rs.jaudiger.dev/').new(true)). It is deployed as a static website on Cloudflare Pages.
 
-### [Calculator GUI (Wasm)]($link.url('https://github.com/jaudiger/calculator-gui-rs/').new(true))
+### [Calculator GUI (WebAssembly)]($link.url('https://github.com/jaudiger/calculator-gui-rs/').new(true))
 
 I always wanted to try [Bevy]($link.url('https://bevy.org').new(true)), a Rust game engine, don't ask me why, but sometimes I get these whims. In addition to that, I read that Bevy was compatible with WebAssembly (aka Wasm). Then why not creating something with Bevy + Wasm. And here come the idea of the calculator, since it was perfect to try the Bevy UI system !
 
