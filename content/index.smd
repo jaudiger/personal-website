@@ -5,7 +5,7 @@
 .layout = "index.shtml",
 ---
 
-[]($image.asset('avatar.png').alt('Avatar').attrs('avatar'))
+[]($image.asset('avatar.png').alt('Avatar').attrs('avatar-img'))
 
 I'm Jérémy Audiger, a French guy from the South of France (living in Nîmes). We could say somehow that I'm passionate about all the things related to science, technology and programming. I'm a real passionate in his thirties, and I'm always looking for new challenges to learn and grow. I've always been curious about how things work and how to make them better.
 
