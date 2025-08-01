@@ -3,7 +3,7 @@ h2,
 h3,
 h4,
 h5 {
-    color: #222;
+    color: #444;
     font-family: "Verdana", sans-serif;
 }
 
@@ -28,6 +28,10 @@ h5 {
     margin: 0.75rem 0;
 }
 
+:is(h1, h2, h3, h4, h5) a {
+    color: #444;
+}
+
 a {
     color: #111;
 }
@@ -39,7 +43,7 @@ p {
 }
 
 html {
-    color: #333;
+    color: #111;
     font-family: "Georgia", serif;
     font-size: clamp(1rem, 0.8rem + 1vw, 1.4rem);
     display: flex;
@@ -57,14 +61,20 @@ body {
 }
 
 .site-title {
+    color: #3f8e8a;
     font-size: clamp(2rem, 4vw, 2.6rem);
     margin-bottom: 0.8rem;
     text-align: center;
 }
 
 .site-subtitle {
+    color: #72b0a7;
     margin: 0.5rem 0;
     text-align: center;
+}
+
+.page-title {
+    color: #008cb4;
 }
 
 .avatar-img {
@@ -121,6 +131,7 @@ footer hr {
 }
 
 footer .copyright {
+    color: #111;
     margin: 0.5rem;
 }
 
