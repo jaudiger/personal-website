@@ -48,11 +48,11 @@ Below a collapsed list, of course, not an exhaustive list, but rather a selectio
 
 I attached a strong attention for Open Source Projects. Since my early days in the computer science, I have always been fascinated by these communities which dedicated their time to create and improve software for the benefit of everyone.
 
-### [Brioche]($link.url('https://brioche.dev').new(true))
+### [Brioche]($link.url('https://brioche.dev').new(true)) []($image.asset('brioche-logo.png').attrs('logo-right-img'))
 
 Brioche is a package manager that is written in Rust, and with recipes that are inspired from Typescript. It is designed to be easy to use, and provides a smooth experience. I'm one of the maintainers of this project with a strong focus on the package management.
 
-### [Nushell]($link.url('https://www.nushell.sh').new(true))
+### [Nushell]($link.url('https://www.nushell.sh').new(true)) []($image.asset('nushell-logo.png').attrs('logo-right-img'))
 
 Nushell is my daily shell driver. Since I discovered it, I have been fascinated by the new paradigms it introduces: this shell put the focus on the command output, to parse and interpret it. It's a bit similar to PowerShell. Nushell is a great tool for writing fastly and comprehensibly scripts.
 

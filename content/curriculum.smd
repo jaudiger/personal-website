@@ -9,7 +9,7 @@
 
 ### Cloud Platform Architect (Jan 2025 - Now)
 
-[Trasna]($link.url('https://trasna.io').new(true)) | [Montpellier, France]($text.attrs('experience-location'))
+[]($image.asset('trasna-logo.png').attrs('logo-left-img')) [Trasna]($link.url('https://trasna.io').new(true)) | [Montpellier, France]($text.attrs('experience-location'))
 
 Lead the cloud server technical teams while defining and implementing architecture for new projects. Fully manage and maintain Kubernetes cloud deployment on AWS cloud provider with Terraform, and ArgoCD, ensuring resiliency and scalability. Develop and review high-performance back-end services in Java with Spring Boot, Rust, Python and Go. While optimizing CI / CD processes for seamless automated multi-platform (AMD64 / ARM64) deployments.
 
@@ -22,7 +22,7 @@ Skills developed:
 
 ### Principal Software Engineer (Jan 2023 - Dec 2024)
 
-[IoTerop (acquired by Trasna)]($link.url('https://ioterop.com').new(true)) | [Montpellier, France]($text.attrs('experience-location'))
+[]($image.asset('ioterop-logo.png').attrs('logo-left-img')) [IoTerop (acquired by Trasna)]($link.url('https://ioterop.com').new(true)) | [Montpellier, France]($text.attrs('experience-location'))
 
 Led back-end platform development to enhance scalability and resilience, while drove cloud infrastructure observability to retrieve logs, traces and metrics from micro-services. Oversaw customer support for enterprise clients to streamline business use cases inside the IoTerop SaaS platform.
 
@@ -36,7 +36,7 @@ Skills developed:
 
 ### IoT / Back-end Engineer (Feb 2020 - Dec 2022)
 
-[IoTerop (acquired by Trasna)]($link.url('https://ioterop.com').new(true)) | [Montpellier, France]($text.attrs('experience-location'))
+[]($image.asset('ioterop-logo.png').attrs('logo-left-img')) [IoTerop (acquired by Trasna)]($link.url('https://ioterop.com').new(true)) | [Montpellier, France]($text.attrs('experience-location'))
 
 Deployed the initial IoTerop SaaS platform. Developed and reviewed micro-services in Rust and C for maximum efficiency, focusing on transport (UDP / TCP / WebSocket) and security (DTLS / TLS). Designed, developed and reviewed micro-services mainly written in Java with Spring Boot and deployed in production on AWS EKS service in multiple regions (Europe and Australia). Automated CI / CD pipelines to accelerate deployments and reduce release times, while providing technical support for both embedded and cloud solutions.
 
@@ -48,7 +48,7 @@ Skills developed:
 
 ### Embedded Software Engineer (Sep 2017 - Jan 2020)
 
-[IoTerop (acquired by Trasna)]($link.url('https://ioterop.com').new(true)) | [Montpellier, France]($text.attrs('experience-location'))
+[]($image.asset('ioterop-logo.png').attrs('logo-left-img')) [IoTerop (acquired by Trasna)]($link.url('https://ioterop.com').new(true)) | [Montpellier, France]($text.attrs('experience-location'))
 
 Worked on an embedded stack in C to implement standardized protocols such as CoAP and LwM2M, focusing on advanced protocol features and testing them at developer events organized by the OpenMobileAlliance. Collaborated with customers to design and integrate specific features while also participating in standardization efforts.
 
@@ -59,25 +59,25 @@ Skills developed:
 
 ### Embedded Software Developer (Feb 2017 - Aug 2017)
 
-Algodone | [Montpellier, France]($text.attrs('experience-location'))
+[]($image.asset('algodone-logo.jpeg').attrs('logo-left-img')) Algodone | [Montpellier, France]($text.attrs('experience-location'))
 
 Developed and set up an ASIC test bench for functional validation. The ASIC was connected to a FPGA which interfaced with a computer via PCI-Express. A software was developed using C++ and Lua to showcase the test bench.
 
 ### End of Study Industrial Project (Sep 2016 - Aug 2017)
 
-Polytech Montpellier | [Montpellier, France]($text.attrs('experience-location'))
+[]($image.asset('polytech-montpellier-logo.png').attrs('logo-left-img')) [Polytech Montpellier]($link.url('https://www.polytech.umontpellier.fr').new(true)) | [Montpellier, France]($text.attrs('experience-location'))
 
 Conducted research on hardware security and material rights applications through the usage of Physically Unclonable Functions (PUF).
 
 ### Laboratory Internship (Jun 2016 - Aug 2016)
 
-National University of Ireland | [Galway, Ireland]($text.attrs('experience-location'))
+[]($image.asset('national-university-of-ireland-logo.png').attrs('logo-left-img')) [National University of Ireland]($link.url('https://www.universityofgalway.ie').new(true)) | [Galway, Ireland]($text.attrs('experience-location'))
 
 Improved the academic ViciLab software (written in Python), which simulates small systems described through VHDL on a computer or directly on FPGA boards for educational purposes.
 
 ### Laboratory Internship (Jun 2015 - Jul 2015)
 
-Institut d’Électronique et des Systèmes | [Montpellier, France]($text.attrs('experience-location'))
+[]($image.asset('institut-electronique-et-systemes-logo.jpg').attrs('logo-left-img')) [Institut d’Électronique et des Systèmes]($link.url('https://www.ies.umontpellier.fr').new(true)) | [Montpellier, France]($text.attrs('experience-location'))
 
 Analyzed the impact of data transmission between web clients and servers through the design of a C++ software showing the load network consumption of web pages.
 
@@ -85,19 +85,19 @@ Analyzed the impact of data transmission between web clients and servers through
 
 ### Kubernetes Administration (2022)
 
-Orsys | [Montpellier, France]($text.attrs('experience-location'))
+[Orsys]($link.url('https://www.orsys.fr').new(true)) | [Montpellier, France]($text.attrs('experience-location'))
 
 Training around the administration of a micro-service architecture through Kubernetes
 
 ### AWS Architecture & Deployment (2021)
 
-Orsys | [Montpellier, France]($text.attrs('experience-location'))
+[Orsys]($link.url('https://www.orsys.fr').new(true)) | [Montpellier, France]($text.attrs('experience-location'))
 
 Training around the usage of AWS services
 
 ### Customer Support Key Relationship (2020)
 
-Orsys | [Montpellier, France]($text.attrs('experience-location'))
+[Orsys]($link.url('https://www.orsys.fr').new(true)) | [Montpellier, France]($text.attrs('experience-location'))
 
 Training related to the success of a key relationship with customers
 

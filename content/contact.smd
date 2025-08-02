@@ -7,8 +7,8 @@
 
 You can reach me from multiple mediums:
 
-- []($image.asset('email-logo.png').attrs('contact-img')) Email: contact@jaudiger.dev
-- []($image.asset('linkedin-logo.png').attrs('contact-img')) LinkedIn: [in/jeremy-a-956529110]($link.url('https://www.linkedin.com/in/jeremy-a-956529110/').new(true))
-- []($image.asset('mastodon-logo.png').attrs('contact-img')) Mastodon: [@jaudiger@fosstodon.org]($link.url('https://fosstodon.org/@jaudiger').new(true))
-- []($image.asset('github-logo.png').attrs('contact-img')) GitHub: [@jaudiger]($link.url('https://github.com/jaudiger').new(true))
-- []($image.asset('gitlab-logo.png').attrs('contact-img')) GitLab: [@jaudiger]($link.url('https://gitlab.com/jaudiger').new(true))
+- []($image.asset('email-logo.png').attrs('logo-left-img')) Email: contact@jaudiger.dev
+- []($image.asset('linkedin-logo.png').attrs('logo-left-img')) LinkedIn: [in/jeremy-a-956529110]($link.url('https://www.linkedin.com/in/jeremy-a-956529110/').new(true))
+- []($image.asset('mastodon-logo.png').attrs('logo-left-img')) Mastodon: [@jaudiger@fosstodon.org]($link.url('https://fosstodon.org/@jaudiger').new(true))
+- []($image.asset('github-logo.png').attrs('logo-left-img')) GitHub: [@jaudiger]($link.url('https://github.com/jaudiger').new(true))
+- []($image.asset('gitlab-logo.png').attrs('logo-left-img')) GitLab: [@jaudiger]($link.url('https://gitlab.com/jaudiger').new(true))
