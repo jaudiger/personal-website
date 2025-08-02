@@ -101,10 +101,9 @@ nav {
 }
 
 @media (max-width: 600px) {
-    /* On small screens, the navigation items stack vertically */
+    /* On small screens, the navigation items can be wrapped */
     nav {
-        flex-direction: column;
-        align-items: center;
+        flex-wrap: wrap;
         margin-top: 0.4rem;
         margin-bottom: 0.4rem;
     }
