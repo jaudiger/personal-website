@@ -83,8 +83,16 @@ I always wanted to try [Bevy]($link.url('https://bevy.org').new(true)), a Rust g
 
 If you want to try the calculator, you can find it [here]($link.url('https://calculator-gui-rs.jaudiger.dev/').new(true)). It is deployed as a static website on Cloudflare Pages.
 
-### No-allocation required communication protocol library
+### [No-allocation vector library](https://github.com/jaudiger/noalloc-vec-rs)
 
-During my spare time, I worked on a communication protocol Rust library that doesn't require any memory allocation (aka no_std mode in Rust). This library is designed to be used in resource-constrained environments, such as embedded systems or IoT devices. The CPU target was AVR. The code was simulated on QEMU, and a bridge was developed to map the serial port to a local TCP port to do the testing.
+No-allocation is most of the time a requirement in embedded systems, where memory is limited. Having a vector library with no-allocation involves to instantiate a vector on the stack with a fixed size at build time. It was enough to experiment with Rust's capabilities regarding compile time methods. Unfortunately, not all the methods of this library are compatible in a Rust constant context. Most of them are currently being blocked by the non-possibility to use traits in constant contexts. But it's just a matter of time.
 
-This library is not open source, since it was part of an experiment at my job. I wanted to demonstrate to the top management, the usability of Rust in a no-alloc environment. And it was for me, a good fun project to work on.
+### [No-allocation SLIP library](https://github.com/jaudiger/noalloc-slip-rs)
+
+Based on the no-allocation vector library, the no-allocation SLIP library provides a way to encode and decode data using the Serial Line Internet Protocol (SLIP) without any memory allocation. It's perfect for embedded systems, more specifically for the ones sending messages over a serial port (which is kind of the same thing as sending a raw message over TCP). Having message's markers is important to differentiate the messages being sent.
+
+### No-allocation communication protocol library
+
+I worked on a communication protocol Rust library that also doesn't require any memory allocation (aka no_std mode in Rust). It is not open source, since it was part of an experiment at my job. I wanted to demonstrate to the top management, the usability of Rust in a no-alloc environment. And it was for me, a good fun project to work on.
+
+The CPU target was AVR. And the code was simulated on QEMU with a bridge developed to map the serial port to a local TCP port for the testing.
