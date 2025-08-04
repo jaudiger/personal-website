@@ -90,9 +90,3 @@ No-allocation is most of the time a requirement in embedded systems, where memor
 ### [No-allocation SLIP library](https://github.com/jaudiger/noalloc-slip-rs)
 
 Based on the no-allocation vector library, the no-allocation SLIP library provides a way to encode and decode data using the Serial Line Internet Protocol (SLIP) without any memory allocation. It's perfect for embedded systems, more specifically for the ones sending messages over a serial port (which is kind of the same thing as sending a raw message over TCP). Having message's markers is important to differentiate the messages being sent.
-
-### No-allocation communication protocol library
-
-I worked on a communication protocol Rust library that also doesn't require any memory allocation (aka no_std mode in Rust). It is not open source, since it was part of an experiment at my job. I wanted to demonstrate to the top management, the usability of Rust in a no-alloc environment. And it was for me, a good fun project to work on.
-
-The CPU target was AVR. And the code was simulated on QEMU with a bridge developed to map the serial port to a local TCP port for the testing.
