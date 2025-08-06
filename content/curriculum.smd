@@ -13,12 +13,25 @@
 
 Lead the cloud server technical teams while defining and implementing architecture for new projects. Fully manage and maintain Kubernetes cloud deployment on AWS cloud provider with Terraform, and ArgoCD, ensuring resiliency and scalability. Develop and review high-performance back-end services in Java with Spring Boot, Rust, Python and Go. While optimizing CI / CD processes for seamless automated multi-platform (AMD64 / ARM64) deployments.
 
-Skills developed:
+[]($section.attrs('section-left'))
+
+##### Accomplishments
+
+- Reduction of cost infrastructure by 40%
+- Multi-platform deployment based on Moby BuildKit
+- Migration to new authentication system for cluster management
+- Rework a Java micro-service to cover operation application scheduling
+
+[]($section.attrs('section-right'))
+
+##### Skills developed
 
 - DevOps
 - Back-end Development
 - Cloud Infrastructure
 - Team Leadership
+
+[]($section)
 
 ### Principal Software Engineer (Jan 2023 - Dec 2024)
 
@@ -26,7 +39,18 @@ Skills developed:
 
 Led back-end platform development to enhance scalability and resilience, while drove cloud infrastructure observability to retrieve logs, traces and metrics from micro-services. Oversaw customer support for enterprise clients to streamline business use cases inside the IoTerop SaaS platform.
 
-Skills developed:
+[]($section.attrs('section-left'))
+
+##### Accomplishments
+
+- Develop a Java micro-service to abstract IoT protocols
+- Develop a Java micro-service to create IoT devices alert system
+- Consolidation of the CI / CD process
+- Infrastructure monitoring: logs, traces, metrics
+
+[]($section.attrs('section-right'))
+
+##### Skills developed
 
 - DevOps
 - Back-end Development
@@ -34,17 +58,31 @@ Skills developed:
 - Resilience
 - Observability
 
+[]($section)
+
 ### IoT / Back-end Engineer (Feb 2020 - Dec 2022)
 
 []($image.asset('ioterop-logo.png').attrs('logo-left-img')) [IoTerop (acquired by Trasna)]($link.url('https://ioterop.com').new(true)) | [Montpellier, France · Hybrid]($text.attrs('experience-location'))
 
 Deployed the initial IoTerop SaaS platform. Developed and reviewed micro-services in Rust and C for maximum efficiency, focusing on transport (UDP / TCP / WebSocket) and security (DTLS / TLS). Designed, developed and reviewed micro-services mainly written in Java with Spring Boot and deployed in production on AWS EKS service in multiple regions (Europe and Australia). Automated CI / CD pipelines to accelerate deployments and reduce release times, while providing technical support for both embedded and cloud solutions.
 
-Skills developed:
+[]($section.attrs('section-left'))
+
+##### Accomplishments
+
+- Develop a highly multi-threaded Rust micro-service to handle UDP / TCP / WebSocket transports
+- Develop a highly multi-threaded C micro-service to handle DTLS / TLS security protocols
+- Deployment of micro-services in production on AWS EKS
+
+[]($section.attrs('section-right'))
+
+##### Skills developed
 
 - DevOps
 - Back-end Development
 - Technical Customer Support
+
+[]($section)
 
 ### Embedded Software Engineer (Sep 2017 - Jan 2020)
 
@@ -52,10 +90,24 @@ Skills developed:
 
 Worked on an embedded stack in C to implement standardized protocols such as CoAP and LwM2M, focusing on advanced protocol features and testing them at developer events organized by the OpenMobileAlliance. Collaborated with customers to design and integrate specific features while also participating in standardization efforts.
 
-Skills developed:
+[]($section.attrs('section-left'))
+
+##### Accomplishments
+
+- Python bindings for seamless testing of the C stack
+- Deployment of LwM2M servers on AWS Lightsail
+- Implementation of new LwM2M protocol versions
+- Abstraction layer to integrate DTLS/TLS external libraries
+- Implementation of timing features for LwM2M protocol
+
+[]($section.attrs('section-right'))
+
+##### Skills developed
 
 - Embedded Development
 - Technical Customer Support
+
+[]($section)
 
 ### Embedded Software Developer (Feb 2017 - Aug 2017)
 

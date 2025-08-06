@@ -11,6 +11,7 @@ h4,
 h5 {
     color: #444;
     font-family: "Verdana", sans-serif;
+    clear: both;
 }
 
 h1 {
@@ -60,7 +61,7 @@ html {
 
 body {
     width: 100%;
-    max-width: 800px;
+    max-width: 1000px;
     padding: 0.8rem;
     display: flex;
     flex-direction: column;
@@ -164,4 +165,28 @@ footer .note {
     white-space: nowrap;
     margin: 0;
     font-size: 0.9rem;
+}
+
+.section-left {
+    float: left;
+    width: 60%;
+}
+
+.section-right {
+    padding-left: 1rem;
+    float: right;
+    width: 40%;
+}
+
+@media (max-width: 600px) {
+    /* On small screens, the sections can be stacked */
+    .section-left {
+        float: none;
+        width: 100%;
+    }
+
+    .section-right {
+        float: none;
+        width: 100%;
+    }
 }
