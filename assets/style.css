@@ -186,6 +186,7 @@ footer .note {
     }
 
     .section-right {
+        padding-left: 0;
         float: none;
         width: 100%;
     }
