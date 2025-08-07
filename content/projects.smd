@@ -41,7 +41,7 @@ Below a collapsed list, of course, not an exhaustive list, but rather a selectio
 >
 >> Low-level development:
 >> - Rust no_std (I worked on a personal project, which is not open source, to create a no_std library for AVR microcontrollers)
->> - multi-threading
+>> - Multi-threading
 >> - DTLS / TLS
 
 ## Open Source Projects
