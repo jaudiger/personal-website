@@ -20,7 +20,7 @@
   </head>
   <body id="body">
     <h1 class="site-title" :text="$site.title"></h1>
-    <h3 class="site-subtitle">Welcome into my brain !</h3>
+    <h3 class="site-subtitle">The short biography of a developer</h3>
     <nav>
       <a href="$site.page('').link()">Lore</a>
        &nbsp; • &nbsp;
