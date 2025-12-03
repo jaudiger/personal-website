@@ -5,7 +5,7 @@
 .layout = "index.shtml",
 ---
 
-## Work experience
+## [Work experience]($section.id('work-experience'))
 
 ### Cloud Platform Architect (Jan 2025 - Now)
 
@@ -132,7 +132,7 @@ Improved the academic ViciLab software (written in Python), which simulates smal
 
 Analyzed the impact of data transmission between web clients and servers through the design of a C++ software showing the load network consumption of web pages.
 
-## Certifications & Training
+## [Certifications & Training]($section.id('certifications-training'))
 
 ### Kubernetes Administration (2022)
 
@@ -152,7 +152,7 @@ Training around the usage of AWS services
 
 Training related to the success of a key relationship with customers
 
-## Education
+## [Education]($section.id('education'))
 
 ### Polytech Montpellier (2014 -2017)
 

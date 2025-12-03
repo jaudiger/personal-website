@@ -44,7 +44,7 @@ Below a collapsed list, of course, not an exhaustive list, but rather a selectio
 >> - Multi-threading
 >> - DTLS / TLS
 
-## Open Source Projects
+## [Open Source Projects]($section.id('open-source-projects'))
 
 I attached a strong attention for Open Source Projects. Since my early days in the computer science, I have always been fascinated by these communities which dedicated their time to create and improve software for the benefit of everyone.
 
@@ -65,7 +65,7 @@ I can't enumerate all the open source projects I have worked on, but here are a 
 - [Bitnami Charts]($link.url('https://github.com/bitnami/charts').new(true)): I upstreamed a few modifications in the charts, since my company wanted to fine-tune a few services' deployment.
 - [Porter]($link.url('https://porter.sh').new(true)): I worked on it when we wanted in my company to propose a airgap deployment for our PaaS cloud platform.
 
-## Personal Projects
+## [Personal Projects]($section.id('personal-projects'))
 
 Below, some of my personal projects I developed. And if you want to have a look to my public repositories, you can find them [here]($link.url('https://github.com/jaudiger?tab=repositories').new(true)).
 

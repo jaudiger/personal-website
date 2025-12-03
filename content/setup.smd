@@ -7,13 +7,13 @@
 
 You can check my [dotfiles]($link.url('https://github.com/jaudiger/dotfiles').new(true)) if you want to replicate some part of my setup. Additionally, you can take inspiration from my [scripts]($link.url('https://github.com/jaudiger/personal-scripts').new(true)) I use to automate my daily tasks. Most of them are written in Nushell !
 
-## Hardware Setup
+## [Hardware Setup]($section.id('hardware-setup'))
 
 Daily using a MacBook Pro M1 (2020) with 16GB RAM. Never heard a single time the CPU fan. The chassis can raise in temperature, but nothing compared to my previous laptop which was not a ARM CPU.
 
 Also using a Logitech MX Master 3S mouse and a Logitech MX Mechanical Mini keyboard. I kind of like the infinite scroll feature of the mouse, and mechanical keyboards because they have a better pressure feedback in my opinion. Having said that, I didn't know that I could also like the trackpad of the MacBook Pro, I'm now used to it, I guess. So depending of my current work environment and where I'm located, I use either the combo trackpad / computer keyboard or the mouse / mechanical keyboard.
 
-## Software Setup
+## [Software Setup]($section.id('software-setup'))
 
 - Operating system: macOS (I know [Asahi Linux]($link.url('https://asahilinux.org').new(true)) exists, but I never tried it)
 - Dotfiles management: [NixOS]($link.url('https://nixos.org').new(true)) + [nix-darwin]($link.url('https://github.com/nix-darwin/nix-darwin').new(true)) + [home-manager]($link.url('https://github.com/nix-community/home-manager').new(true))
@@ -24,12 +24,12 @@ Also using a Logitech MX Master 3S mouse and a Logitech MX Mechanical Mini keybo
 
 As you can already see, I'm a big fan of the languages [Rust]($link.url('https://www.rust-lang.org').new(true)) and [Zig]($link.url('https://ziglang.org').new(true)).
 
-## Project Setup
+## [Project Setup]($section.id('project-setup'))
 
 I was in my earlier time an aficionado of containerizing all my projects to ensure the development environments were easy to replicate, and there was no risk of conflicting tool versions. But after a few months, I realized that it was not always the best solution. Sometimes, it was easier to just use the tools already installed on my machine. So, I decided to pre-install everything for my projects with Nix. The current full setup can be find [here]($link.url('https://github.com/jaudiger/dotfiles/tree/main/profiles/development').new(true)).
 
 Occasionally, I still need a specific toolchain or a specific version of one tool that is not available in my Nix profile. In such cases, I use a pre-configured [dev-shell]($link.url('https://github.com/jaudiger/dotfiles/tree/main/dev-shell').new(true)). And sometimes for certain use-cases, I can also use one of the [dev-containers]($link.url('https://github.com/jaudiger/vscode-dev-containers').new(true)) for VSCode I created specifically.
 
-## Third Party Services Setup
+## [Third-Party Services Setup]($section.id('third-party-services-setup'))
 
 When working in the cloud, we often need to use third-party services such as a database, a messaging service, a file storage service, etc. To set up these services locally, I wrote some Docker-Compose files that can be found [here]($link.url('https://github.com/jaudiger/containerized-services').new(true)). It lets me quickly spawn an instance of the services I'm interested in on my machine. The deployment of these services are not meant for production use, but rather for development and testing purposes.
