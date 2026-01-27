@@ -19,7 +19,7 @@ Also using a Logitech MX Master 3S mouse and a Logitech MX Mechanical Mini keybo
 - Dotfiles management: [NixOS]($link.url('https://nixos.org').new(true)) + [nix-darwin]($link.url('https://github.com/nix-darwin/nix-darwin').new(true)) + [home-manager]($link.url('https://github.com/nix-community/home-manager').new(true))
 - Terminal: [Ghostty]($link.url('https://ghostty.org').new(true)) + [Zellij]($link.url('https://zellij.dev').new(true)) as my terminal multiplexer + [Starship]($link.url('https://starship.rs').new(true)) as my prompt customizer
 - Shell: [Nushell]($link.url('https://www.nushell.sh').new(true))
-- Terminal text editor: [Helix]($link.url('https://helix-editor.com').new(true))
+- Terminal text editor: [Neovim]($link.url('https://neovim.io').new(true))
 - Graphical text editor: [Zed]($link.url('https://zed.dev').new(true))
 
 As you can already see, I'm a big fan of the languages [Rust]($link.url('https://www.rust-lang.org').new(true)) and [Zig]($link.url('https://ziglang.org').new(true)).
