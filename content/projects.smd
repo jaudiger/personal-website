@@ -89,6 +89,10 @@ Example of a distributed job system in Rust with clients receiving work on their
 
 This project demonstrates distributed systems in a world where most of the microservices are today written in Java, Python, Go or JavaScript.
 
+### [Hello Zigwin]($link.url('https://github.com/jaudiger/hello-zigwin').new(true))
+
+Curious about the cross-compilation capabilities offered by [Zig]($link.url('https://ziglang.org').new(true)), I decided to put them to the test, and what better way to do it than targeting the oldest Windows version it supports. It turned out that Windows XP was the most ancient version available, and a bit of nostalgia kicked in. The result is a minimal Win32 GUI application written in Zig that displays a simple "Hello, World!" window, cross-compiled from any platform and targeting Windows XP (x86).
+
 ### [No-allocation vector library](https://github.com/jaudiger/noalloc-vec-rs)
 
 No-allocation is most of the time a requirement in embedded systems, where memory is limited. Having a vector library with no-allocation involves to instantiate a vector on the stack with a fixed size at build time. It was enough to experiment with Rust's capabilities regarding compile time methods. Unfortunately, not all the methods of this library are compatible in a Rust constant context. Most of them are currently being blocked by the non-possibility to use traits in constant contexts. But it's just a matter of time.
