@@ -89,7 +89,7 @@ Example of a distributed job system in Rust with clients receiving work on their
 
 This project demonstrates distributed systems in a world where most of the microservices are today written in Java, Python, Go or JavaScript.
 
-### [Hello Zigwin]($link.url('https://github.com/jaudiger/hello-zigwin').new(true))
+### [Hello Windows XP]($link.url('https://github.com/jaudiger/hello-winxp-zig').new(true))
 
 Curious about the cross-compilation capabilities offered by [Zig]($link.url('https://ziglang.org').new(true)), I decided to put them to the test, and what better way to do it than targeting the oldest Windows version it supports. It turned out that Windows XP was the most ancient version available, and a bit of nostalgia kicked in. The result is a minimal Win32 GUI application written in Zig that displays a simple "Hello, World!" window, cross-compiled from any platform and targeting Windows XP (x86).
 
