@@ -93,6 +93,10 @@ This project demonstrates distributed systems in a world where most of the micro
 
 Curious about the cross-compilation capabilities offered by [Zig]($link.url('https://ziglang.org').new(true)), I decided to put them to the test, and what better way to do it than targeting the oldest Windows version it supports. It turned out that Windows XP was the most ancient version available, and a bit of nostalgia kicked in. The result is a minimal Win32 GUI application written in Zig that displays a simple "Hello, World!" window, cross-compiled from any platform and targeting Windows XP (x86).
 
+### [Kubernetes client for Zig]($link.url('https://github.com/jaudiger/kube-zig').new(true))
+
+A Kubernetes client library written in Zig that generates type-safe struct definitions from the Kubernetes OpenAPI specification. It provides an HTTP client wrapper and an orchestrator for performing CRUD operations on Kubernetes resources, all without any external dependencies beyond the Zig standard library. The project includes several examples such as cluster health monitoring, pod watching with the informer pattern, and dynamic resource management.
+
 ### [No-allocation vector library](https://github.com/jaudiger/noalloc-vec-rs)
 
 No-allocation is most of the time a requirement in embedded systems, where memory is limited. Having a vector library with no-allocation involves to instantiate a vector on the stack with a fixed size at build time. It was enough to experiment with Rust's capabilities regarding compile time methods. Unfortunately, not all the methods of this library are compatible in a Rust constant context. Most of them are currently being blocked by the non-possibility to use traits in constant contexts. But it's just a matter of time.
@@ -100,3 +104,7 @@ No-allocation is most of the time a requirement in embedded systems, where memor
 ### [No-allocation SLIP library](https://github.com/jaudiger/noalloc-slip-rs)
 
 Based on the no-allocation vector library, the no-allocation SLIP library provides a way to encode and decode data using the Serial Line Internet Protocol (SLIP) without any memory allocation. It's perfect for embedded systems, more specifically for the ones sending messages over a serial port (which is kind of the same thing as sending a raw message over TCP). Having message's markers is important to differentiate the messages being sent.
+
+### [ZCodePrism]($link.url('https://github.com/jaudiger/zcodeprism').new(true))
+
+A Zig library, CLI, and MCP server that ingests a local codebase, builds a semantic code graph, and exposes it for exploration by LLMs and humans. It uses [tree-sitter]($link.url('https://tree-sitter.github.io/tree-sitter/').new(true)) for AST parsing and can enrich the graph via LSP. The MCP server is read-only, exposing queries on the graph, while all mutations like indexing, snapshots, and diffs go through the CLI.
