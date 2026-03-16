@@ -83,6 +83,10 @@ I always wanted to try [Bevy]($link.url('https://bevy.org').new(true)), a Rust g
 
 If you want to try the calculator, you can find it [here]($link.url('https://calculator-gui-rs.jaudiger.dev/').new(true)). It is deployed as a static website on Cloudflare Pages.
 
+### [Educational Game]($link.url('https://github.com/jaudiger/educational-game-rs').new(true))
+
+Continuing to explore [Bevy]($link.url('https://bevy.org').new(true)), I wanted to build something more interactive. This educational game is a desktop application written in Rust that explores Bevy's UI system, persistence, and game state management.
+
 ### [Distributed job system]($link.url('https://github.com/jaudiger/distributed-job-system-rs/').new(true))
 
 Example of a distributed job system in Rust with clients receiving work on their HTTP endpoint and distributing it to servers for execution. It uses MongoDB as database, Kafka as message broker, and Prometheus / Jaeger for monitoring.
