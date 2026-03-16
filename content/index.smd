@@ -1,5 +1,5 @@
 ---
-.title = "Lore",
+.title = "Whoami",
 .date = @date("1994-05-06T00:00:00"),
 .author = "Jérémy Audiger",
 .layout = "index.shtml",
@@ -15,4 +15,4 @@ I was initially working in the embedded world during my early career, and now wo
 
 I'm eating technology watch for breakfast, and I do it every day, it's like going to the gym for me. I like what I'm doing today, and I'm always 100% involved in it. Of course, I'm also interested by other "normal" things, like walking in my city during morning or evening, taking my bike to go on the road, hiking, or simply reading the news.
 
-PS: Oh, and if you don't know what means "Lore", it's a term used in the gaming industry to refer to the backstory or history of a game.
+PS: Oh, and if you don't know what "whoami" means, it's a command used in Unix systems to display the current user. Consider this page as the answer to that command.
