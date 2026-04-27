@@ -1,16 +1,16 @@
-name: Continuous Integration - Tests
+name: Continuous Integration - Tests (Zig)
 
 on:
   push:
     paths:
-      - ".github/workflows/tests.yml"
+      - ".github/workflows/tests-zig.yml"
       - "content/**"
       - "layouts/**"
       - "assets/**"
       - "zine.ziggy"
   pull_request:
     paths:
-      - ".github/workflows/tests.yml"
+      - ".github/workflows/tests-zig.yml"
       - "content/**"
       - "layouts/**"
       - "assets/**"
@@ -18,7 +18,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: tests-${{ github.repository }}-${{ github.ref_name }}
+  group: tests-zig-${{ github.repository }}-${{ github.ref_name }}
   cancel-in-progress: true
 
 jobs:
