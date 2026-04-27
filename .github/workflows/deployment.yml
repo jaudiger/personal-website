@@ -1,11 +1,13 @@
 name: Continuous Deployment
 
 on:
-  push:
+  workflow_run:
+    workflows: ["Continuous Integration - Tests (Zig)"]
+    types: [completed]
     branches: [main]
 
 concurrency:
-  group: deployment
+  group: deployment-${{ github.ref_name }}
   cancel-in-progress: false
 
 env:
@@ -13,6 +15,7 @@ env:
 
 jobs:
   deployment:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
