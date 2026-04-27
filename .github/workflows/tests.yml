@@ -1,0 +1,37 @@
+name: Continuous Integration - Tests
+
+on:
+  push:
+    paths:
+      - ".github/workflows/tests.yml"
+      - "content/**"
+      - "layouts/**"
+      - "assets/**"
+      - "zine.ziggy"
+  pull_request:
+    paths:
+      - ".github/workflows/tests.yml"
+      - "content/**"
+      - "layouts/**"
+      - "assets/**"
+      - "zine.ziggy"
+  workflow_dispatch:
+
+concurrency:
+  group: tests-${{ github.repository }}-${{ github.ref_name }}
+  cancel-in-progress: true
+
+jobs:
+  zig-unit-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6.0.2
+
+      - name: Install Zine
+        uses: kristoff-it/setup-zine@v1
+        with:
+          version: v0.11.2
+
+      - name: Build
+        run: zine release
