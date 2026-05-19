@@ -12,7 +12,7 @@ jobs:
     if: ${{ (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success') || github.event_name == 'workflow_dispatch' }}
     permissions:
       contents: read
-    uses: jaudiger/reusable-workflows/.github/workflows/deploy-zine-cloudflare-pages.yml@44a8a3cdbdbbf3a021a51659c87c551b70f69763
+    uses: jaudiger/reusable-workflows/.github/workflows/deploy-zine-cloudflare-pages.yml@4aef3115afe05a19785b3e14970ecd4f400cc457
     with:
       zine-version: "v0.11.2"
       output-dir: "public"

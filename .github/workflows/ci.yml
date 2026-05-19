@@ -40,14 +40,14 @@ jobs:
   build-zine:
     needs: changes
     if: needs.changes.outputs.zine == 'true'
-    uses: jaudiger/reusable-workflows/.github/workflows/build-zine.yml@44a8a3cdbdbbf3a021a51659c87c551b70f69763
+    uses: jaudiger/reusable-workflows/.github/workflows/build-zine.yml@4aef3115afe05a19785b3e14970ecd4f400cc457
     with:
       zine-version: "v0.11.2"
 
   lint-actions:
     needs: changes
     if: needs.changes.outputs.workflows == 'true'
-    uses: jaudiger/reusable-workflows/.github/workflows/static-analysis-github-actions.yml@44a8a3cdbdbbf3a021a51659c87c551b70f69763
+    uses: jaudiger/reusable-workflows/.github/workflows/static-analysis-github-actions.yml@4aef3115afe05a19785b3e14970ecd4f400cc457
 
   ci:
     if: always()
