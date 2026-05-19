@@ -2,36 +2,20 @@ name: Continuous Deployment
 
 on:
   workflow_run:
-    workflows: ["Continuous Integration - Tests (Zig)"]
+    workflows: ["CI"]
     types: [completed]
     branches: [main]
-
-concurrency:
-  group: deployment-${{ github.ref_name }}
-  cancel-in-progress: false
-
-env:
-  ZINE_OUTPUT_DIR: public
+  workflow_dispatch:
 
 jobs:
   deployment:
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v6.0.2
-
-      - name: Install Zine
-        uses: kristoff-it/setup-zine@v1
-        with:
-          version: v0.11.2
-
-      - name: Build
-        run: zine release
-
-      - name: Deploy to Cloudflare Pages
-        uses: cloudflare/wrangler-action@v4.0.0
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy ${{ env.ZINE_OUTPUT_DIR }} --project-name=${{ github.event.repository.name }} --branch=${{ github.ref_name }}
+    if: ${{ (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success') || github.event_name == 'workflow_dispatch' }}
+    permissions:
+      contents: read
+    uses: jaudiger/reusable-workflows/.github/workflows/deploy-zine-cloudflare-pages.yml@eeb6e74f96a49785e3a1879d8797b75fbce9a43d
+    with:
+      zine-version: "v0.11.2"
+      output-dir: "public"
+    secrets:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
