@@ -33,6 +33,7 @@ jobs:
               - 'layouts/**'
               - 'assets/**'
               - 'zine.ziggy'
+              - '.github/workflows/ci.yml'
             workflows:
               - '.github/workflows/**'
 
