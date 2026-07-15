@@ -12,9 +12,8 @@ jobs:
     if: ${{ (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success') || github.event_name == 'workflow_dispatch' }}
     permissions:
       contents: read
-    uses: jaudiger/reusable-workflows/.github/workflows/deploy-zine-cloudflare-pages.yml@4aef3115afe05a19785b3e14970ecd4f400cc457
+    uses: jaudiger/reusable-workflows/.github/workflows/deploy-zine-cloudflare-pages.yml@16364121c482897e29680101ea22b8a3ea472c25
     with:
-      zine-version: "v0.11.2"
       output-dir: "public"
     secrets:
       CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
