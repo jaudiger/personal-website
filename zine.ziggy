@@ -1,4 +1,5 @@
-Site {
+.zine_version = "0.12.0",
+.site = .simple(.{
     .title = "~/jaudiger",
     .host_url = "https://jaudiger.dev/",
     .content_dir_path = "content",
@@ -9,4 +10,5 @@ Site {
         "robots.txt",
         "sitemap.xml",
     ],
-}
+}),
+.auto_target_blank = false,

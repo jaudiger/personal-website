@@ -1,7 +1,7 @@
 ---
 .title = "Contact",
-.date = @date("1994-05-06T00:00:00"),
-.author = "Jérémy Audiger",
+.date = .date("1994-05-06T00:00:00"),
+.authors = ["Jérémy Audiger"],
 .layout = "index.shtml",
 ---
 
