@@ -21,7 +21,7 @@
   <body id="body">
     <h1 class="site-title" :text="$site.title"></h1>
     <nav>
-      <a href="$site.page('').link()">Whoami</a>
+      <a href="$site.index().link()">Whoami</a>
        &nbsp; • &nbsp;
       <a href="$site.page('projects').link()">Projects</a>
        &nbsp; • &nbsp;

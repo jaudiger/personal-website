@@ -1,4 +1,4 @@
-.zine_version = "0.12.0",
+.zine_version = "0.14.0",
 .site = .simple(.{
     .title = "~/jaudiger",
     .host_url = "https://jaudiger.dev/",
@@ -11,4 +11,6 @@
         "sitemap.xml",
     ],
 }),
-.auto_target_blank = false,
+.supermd = .{
+    .auto_target_blank = false,
+},
